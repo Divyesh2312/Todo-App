@@ -34,13 +34,10 @@ A full-stack Todo application built using:
 
    ```bash
    cd server
-2. Install backend dependencies:
    npm install
+   npm start
 
-3. Start backend server:
-  npm start
-
-4. Make sure you have a .env file in the backend root with the following:
+2. Make sure you have a .env file in the backend root with the following:
   PORT=5000
   MONGO_URI=your_mongodb_connection_string
   JWT_SECRET=your_secret_key
@@ -48,14 +45,11 @@ A full-stack Todo application built using:
 ### 🔹 Front Setup
 
 1. Navigate to the frontend folder:
+  ```bash
   cd todo-front
-
-2. Install frontend dependencies:
   npm install
-
-3. Run the React + Vite app:
- npm run dev
-
-🌐 Access URLs
+  npm run dev
+```
+2. Access URLs
 🔗 Frontend: http://localhost:5173
 🔗 Backend API: http://localhost:5000/api
