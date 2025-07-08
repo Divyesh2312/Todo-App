@@ -1,0 +1,4 @@
+/node_modules
+/errorLog.log
+/package-lock.json
+/uploads
